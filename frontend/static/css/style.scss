@@ -1,0 +1,46 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    min-width: 310px;
+
+    color: black;
+    &::-webkit-scrollbar-thumb {
+        background: #272525;
+        border-radius: 8px;
+    }
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        background: #413e3e;
+    }
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        color: rgb(111, 184, 3);
+    }
+}
